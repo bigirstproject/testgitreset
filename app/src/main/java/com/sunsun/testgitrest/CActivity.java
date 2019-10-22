@@ -10,6 +10,16 @@ public class CActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        showLog();
     }
 
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+    }
+
+    private void showLog(){
+
+    }
+    
 }
